@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta id="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="index.css">
+	<title>WEARS CONTACT</title>
+</head>
+<style>
+.about{
+	display: flex;
+	align-items: center;
+	text-align: center;
+	margin: 5em 2em;
+	justify-content: space-around;
+}
+#about{
+    padding: 1em;
+    border-radius: 0 100px;
+    background-color: rgba(165, 42, 42, 0.795);
+    color: #fff;
+    font-size: 1em;
+	font-size: 1.3em;
+	width: 50%;
+}
+.input{
+    align-items: center;
+    color: #fff;
+	border: 2px solid brown;
+	
+}
+.input label{
+    font-size: 20px;
+}
+.input input, .input textarea{
+    font-size: 15px;
+	border: 2px solid brown;
+}
+.input input{
+	height: 5vh;
+}
+.input div{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.input .submit{
+	color: #fff;
+	background-color: brown;
+    margin-bottom: 10px;
+}
+.input .submit:hover, .input input:hover, .input textarea:hover{
+	background-color: rgb(237, 248, 246);
+}
+</style>
+<body>
+	<header>
+		<div class="menu">
+			<span class="logo">W<span>E</span>A<span>R</span>S</span>
+			<ul>
+			<li><a href='index.html'>HOME</a></li>
+			<li class="service"><a>SERVICE</a>
+			<div class="downline"><ul>
+				<li><a href='shoe.html'>SHOES</a></li>
+				<li><a href='slipper.html'>SLIPPERS</a></li>
+				<li><a href='cloth.html'>CLOTHS</a></li>
+			</ul></div>
+		</li>
+			<li><a href='contact.html'>CONTACT</a></li>
+			</ul>
+		</div>
+		<div class="about">
+			<div id="about">
+				<h2><span>About WEARS</span></h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste voluptas commodi earum maxime eaque ipsum ut atque quae voluptatum? Magnam reiciendis nesciunt fugit eaque sapiente. Modi rem quasi dolorem quo.</p>
+			</div>
+			<form class="input" action="">
+				
+				<h2>Contact US</h2>
+				<div>
+					<label for="Email">Email:</label>
+					<input type="email" id="Email" name="Email" required>
+				</div>
+				<div>
+					<label for="tel">Tel:</label>
+					<input type="tel" id="tel" name="tel" required>
+				</div>
+				<div>
+					<label for="mag">Text Us:</label>
+					<textarea name="mag" id="mag" cols="19" rows="5" required>
+					</textarea>
+				</div>
+					<input class="submit" type="submit" value="Submit">
+			</form>
+		</div>
+	</header>
+	<footer>
+		<span class="next">
+			<ul>
+				<li><a href="shoe.html">SHOES</a></li>
+				<li><a href="slipper.html">SLIPPERS</a></li>
+				<li><a href="cloth.html">CLOTHS</a></li>
+			</ul>
+		</span>
+		<div class="footer"><em> W<span>E</span>A<span>R</span>S</em> © 2021 Copyright on reserve.</div>
+	</footer>
+</body>
+	<script src="index.js"></script>
+</html>

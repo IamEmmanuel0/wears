@@ -1,0 +1,183 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    font-family: sans-serif;
+}
+header{
+    width: 100%;
+    height: 80vh;
+    background-image: url(pic/1footwear2.jpg);
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+}
+.menu{
+    background-color: rgba(165, 42, 42, 0.74);
+    height: 3em;
+    padding: .5em 5em;
+    border-radius: 50px;
+}
+.menu .logo{
+    color: #fff;
+    font-size: 1.8em;
+    font-weight: 800;
+    letter-spacing: -7px;
+    margin: 0;
+
+}
+.logo, .service:hover{
+    cursor: pointer;
+}
+header span, footer span{
+    color: cadetblue;
+}
+.menu ul{
+    float: right;
+
+}
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    padding: 10px;
+}
+.menu ul li a:active, .menu ul li a:hover{
+    color: brown;
+    background-color: cadetblue;
+}
+.downline{
+    display: none;
+}
+.service:hover .downline{
+    display: block;
+    position: absolute;  
+    background-color: rgba(165, 42, 42, 0.74); 
+    margin: 10px 0;
+    margin-left: -10px;
+}
+.service:hover .downline ul li{
+    text-align: center;
+    display: block;
+    margin: 15px 0;
+    margin-left: -35px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #000;
+}
+.service:hover .downline ul li:last-child{
+    border-bottom: none;
+}
+#welcome{
+    font-family: fantasy;
+    text-align: center;
+    color: #fff;
+    font-size: 3em;
+}
+#welcome em{
+    font-size: 1em;
+    color: chocolate;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.intro{
+    margin: 1em;
+    padding: 1em;
+    flex: 0.7;
+    border-radius: 100px 0;
+    background-color: rgba(165, 42, 42, 0.795);
+    color: #fff;
+    font-size: 1em;
+    font-size: 1.3em;
+}
+.into{
+    flex: 1;
+}
+.into img{
+    border: 5px solid brown;
+    border-radius: 50px;
+    width: 700px;
+    height: 450px;
+}
+#left, #right{
+    position: absolute;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    font-size: 1.6em;
+}
+#left{
+    top: 390px;
+    left: 900px;
+}
+#right{
+    top: 390px;
+    right: 150px;
+}
+.body div{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 2em;
+    justify-content: space-around;
+
+}
+.body div .pic{
+    width: 20%;
+    /* height: 20em; */
+}
+.body div .pic img{
+    width: 100%;
+    height: 100%;
+}
+.body div img:hover{
+    transform: scale(1.1);
+    border: 5px solid rgba(255, 0, 0, 0.829);
+    border-radius: 10px;
+}
+.next{
+    text-align: center;
+    margin: 2em 0;
+}
+.next ul li{
+    display: inline-flex;
+    text-decoration: none;
+}
+.next ul li a{
+    color: #fff;
+    padding: 5px;
+    margin: 2px;
+    text-decoration: none;
+}
+.next ul li a:hover{
+    color: crimson;
+    background-color: darkkhaki;
+    border-radius: 50px;
+}
+footer{
+    color: #fff;
+    text-align: center;
+    border-top: 3px solid blue;
+    background-color: rgb(43, 11, 11);
+}
+footer div em{
+    font-size: 1.5em;
+    font-weight: 800;
+    letter-spacing: -7px;
+    padding-right: 7px;
+}
+footer div{
+    font-size: 1.5em;
+    font-weight: 200;
+    background-color: rgb(43, 11, 11);
+}
+
+@media screen and (max-width: 1200px) {
+    
+}
+}
